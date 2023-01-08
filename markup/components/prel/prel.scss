@@ -1,0 +1,21 @@
+.prel {
+    position: fixed;
+    top: 2.031vw;
+    left: 2.5vw;
+    z-index: 6700000;
+    & p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.885vw;
+        line-height: 130%;
+        letter-spacing: -0.04em;
+        color: #000000;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .prel p {
+        font-size: 3.4666666666666663vw;
+    }
+}
